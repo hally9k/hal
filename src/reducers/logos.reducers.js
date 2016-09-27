@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
-import './logos.css';
+import {List} from 'immutable';
 
-const technologies = [
-  {
-    key: 'angular',
-    url: 'http://res.cloudinary.com/hally9k/image/upload/c_scale,w_60/v1474914878/angular_iimtxg.png'
-  },
+import {actions} from '../actions/logos.actions';
+
+const INITIAL_STATE = new List([
   {
     key: 'JS',
     url: 'http://res.cloudinary.com/hally9k/image/upload/c_scale,w_60/v1474914879/js_lqn0d5.png'
+  },
+  {
+    key: 'angular',
+    url: 'http://res.cloudinary.com/hally9k/image/upload/c_scale,w_60/v1474914878/angular_iimtxg.png'
   },
   {
     key: 'github',
@@ -34,20 +35,16 @@ const technologies = [
     key: 'atom',
     url: 'http://res.cloudinary.com/hally9k/image/upload/c_scale,w_60/v1474914878/atom_oftrpi.png'
   }
-]
+]);
 
-class logos extends Component {
-  render() {
-    return (
-      <div className="logos-container">
-      {
-        technologies.map(function(technology) {
-              return <img src={technology.url} key={technology.key} alt={technology.key} />
-          })
-      }
-      </div>
-    );
+export default (state = INITIAL_STATE, action) => {
+  switch(action.type) {
+    case actions.HAL__LOGOS__ROTATE:
+      let last = state.last();
+      return state
+              .pop()
+              .unshift(last);
+    default:
+      return state;
   }
 }
-
-export default logos;

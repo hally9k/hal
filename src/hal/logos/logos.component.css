@@ -1,0 +1,27 @@
+.logos-container {
+  margin-top: 35px;
+  width: 100%;
+}
+
+.logo-box {
+  width: 120px;
+}
+
+.tech-logo-container {
+  display: inline-block;
+  margin: 20px;
+  height: 300px;
+}
+
+.tech-logo {
+  text-align: center;
+  width: 80%;
+  transition: width .1s ease-in;
+  cursor: pointer;
+  display: flex;
+  align-items:baseline;
+}
+
+.tech-logo:hover {
+  width: 100%;
+}

@@ -1,9 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hal from './hal/hal';
+import {createStore, applyMiddleware} from 'redux';
+import { Provider } from 'react-redux'
+import thunk from 'redux-thunk';
+import createLogger from 'redux-logger';
+
+
+import Hal from './hal/hal.component';
 import './index.css';
 
+import reducers from './reducers';
+
+const logger = createLogger();
+
+const store = createStore(reducers, applyMiddleware(thunk, logger));
+
 ReactDOM.render(
-  <Hal />,
+  <Provider store={store} >
+    <Hal />
+  </Provider>,
   document.getElementById('root')
 );
