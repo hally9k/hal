@@ -6,7 +6,7 @@ import thunk from 'redux-thunk';
 import createLogger from 'redux-logger';
 
 
-import Hal from './hal/hal.component';
+import Hal from './hal/hal.container';
 import './index.css';
 
 import reducers from './reducers';

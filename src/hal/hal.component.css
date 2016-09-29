@@ -24,5 +24,10 @@
   font-weight: 300;
 }
 
+.hal-header-job-title {
+  margin-top: 50px;
+  color: #362858;
+}
+
 .hal-intro {
 }

@@ -1,5 +1,4 @@
 .logos-container {
-  margin-top: 35px;
   width: 100%;
 }
 
@@ -9,17 +8,20 @@
 
 .tech-logo-container {
   display: inline-block;
-  margin: 20px;
-  height: 300px;
+  margin: 10px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  height: 30px;
 }
 
 .tech-logo {
   text-align: center;
-  width: 80%;
+  width: 60%;
   transition: width .1s ease-in;
   cursor: pointer;
   display: flex;
   align-items:baseline;
+  margin:auto;
 }
 
 .tech-logo:hover {
