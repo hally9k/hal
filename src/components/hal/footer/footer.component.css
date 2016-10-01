@@ -1,0 +1,20 @@
+.hal-footer {
+  background-color: #efefef;
+  height: 100px;
+  padding-top: 30px;
+}
+
+.hal-footer-icon {
+  color: #655688;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hal-footer-icon:hover {
+  color: #362858;
+}
+
+.hal-footer-icon-box {
+  margin-left: 10px;
+  margin-right: 10px;
+}

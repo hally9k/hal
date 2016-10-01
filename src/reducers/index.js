@@ -1,9 +1,9 @@
 import {combineReducers} from 'redux';
 
 import logos from './logos.reducers';
-import hal from './hal.reducers';
+import header from './header.reducers';
 
 export default combineReducers({
-  hal,
+  header,
   logos
 });

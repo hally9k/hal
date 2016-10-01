@@ -1,0 +1,19 @@
+
+.hal {
+  height: 100%;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.hal-logo {
+  height: 80px;
+}
+
+.hal-content-wrapper {
+  min-height: calc(100% - 100px);
+  margin-bottom: -100px;
+}
+
+.hal-footer-push {
+  height: 100px;
+}

@@ -1,5 +1,5 @@
 import {Map} from 'immutable';
-import {actions} from '../actions/hal.actions';
+import {actions} from '../actions/header.actions';
 
 const INITIAL_STATE = new Map({
   jobTitles: [
@@ -17,7 +17,7 @@ const INITIAL_STATE = new Map({
 
 export default (state = INITIAL_STATE, action) => {
   switch(action.type) {
-    case actions.HAL__JOB_TITLE_ENTERS:
+    case actions.HAL__HEADER__JOB_TITLE_ENTERS:
       let jobTitles = state.get('jobTitles');
       let i = state.get('currentJobTitleIndex');
       i = ++i % (jobTitles.length);
@@ -25,7 +25,7 @@ export default (state = INITIAL_STATE, action) => {
               .set('currentJobTitleIndex', i)
               .set('currentJobTitle', jobTitles[i])
               .set('enter',true);
-    case actions.HAL__JOB_TITLE_LEAVES:
+    case actions.HAL__HEADER__JOB_TITLE_LEAVES:
       return state
               .set('enter',false);
     default:
