@@ -1,6 +1,6 @@
 import {List} from 'immutable';
 
-import {actions} from '../actions/logos.actions';
+import {actions} from '../actions/tech.actions';
 
 const INITIAL_STATE = new List([
   {
@@ -99,7 +99,7 @@ const INITIAL_STATE = new List([
 
 export default (state = INITIAL_STATE, action) => {
   switch(action.type) {
-    case actions.HAL__LOGOS__ROTATE:
+    case actions.HAL__TECH__ROTATE:
       let last = state.last();
       return state
               .pop()

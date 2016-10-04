@@ -1,9 +1,10 @@
 import {combineReducers} from 'redux';
 
-import logos from './logos.reducers';
 import header from './header.reducers';
-
+import tech from './tech.reducers';
+import footer from './footer.reducers';
 export default combineReducers({
   header,
-  logos
+  tech,
+  footer
 });

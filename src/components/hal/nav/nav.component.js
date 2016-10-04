@@ -7,10 +7,10 @@ class nav extends Component {
   render() {
     return (
       <div>
-        <Link to="/me"><a className="nav-item">me</a></Link>
-        <Link to="/tech"><a className="nav-item">tech</a></Link>
-        <Link to="/work"><a className="nav-item">work</a></Link>
-        <Link to="/blog"><a className="nav-item">blog</a></Link>
+        <Link to="/me"><div className="nav-item">me</div></Link>
+        <Link to="/tech"><div className="nav-item">tech</div></Link>
+        <Link to="/work"><div className="nav-item">work</div></Link>
+        <Link to="/blog"><div className="nav-item">blog</div></Link>
       </div>
     );
   }

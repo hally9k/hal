@@ -6,7 +6,7 @@ import 'font-awesome/css/font-awesome.css';
 
 import Hal from '../hal/hal.container';
 import Me from '../hal/me/me.component';
-import Logos from '../hal/logos/logos.container';
+import Tech from '../hal/tech/tech.container';
 import Work from '../hal/work/work.component';
 import Blog from '../hal/blog/blog.component';
 
@@ -15,7 +15,7 @@ const Root = ({store}) => (
     <Router history={browserHistory}>
       <Route path="/" component={Hal}>
         <Route path="me" component={Me} />
-        <Route path="tech" component={Logos} />
+        <Route path="tech" component={Tech} />
         <Route path="work" component={Work} />
         <Route path="blog" component={Blog} />
       </Route>

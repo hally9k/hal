@@ -8,7 +8,8 @@ const INITIAL_STATE = new Map({
     'coach',
     'dreamer',
     'frontend engineer',
-    'devops guy'
+    'devops guy',
+    'wannabe chef'
   ],
   enter: true,
   currentJobTitleIndex: 0,

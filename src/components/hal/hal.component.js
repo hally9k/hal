@@ -4,7 +4,7 @@ import './hal.component.css';
 
 import Header from './header/header.container';
 import Nav from './nav/nav.component';
-import Footer from './footer/footer.component';
+import Footer from './footer/footer.container';
 
 class hal extends Component {
   render() {

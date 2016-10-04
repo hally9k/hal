@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
 import {withRouter} from 'react-router';
-import hal from './hal.component';
+import footer from './footer.component';
 
 const mapStateToProps = (state, ownProps) => {
   return {
@@ -12,9 +12,9 @@ const mapDispatchToProps = (dispatch, ownProps) => {
   return {}
 };
 
-const VisibleHal = withRouter(connect(
+const VisibleFooter = withRouter(connect(
   mapStateToProps,
   mapDispatchToProps
-)(hal));
+)(footer));
 
-export default VisibleHal;
+export default VisibleFooter;
