@@ -27,3 +27,16 @@
 .tech-logo:hover {
   width: 100%;
 }
+
+.tech-main-title {
+  margin-bottom: 40px;
+}
+
+.tech-section {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.tech-title {
+  font-weight: 500;
+}
