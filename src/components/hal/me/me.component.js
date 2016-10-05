@@ -4,7 +4,7 @@ import './me.component.css';
 class me extends Component {
   render() {
     return (
-      <div className="col-lg-8 col-lg-push-2">
+      <div className="col-lg-8 col-lg-push-2 me-body">
         <h1>About Me...</h1>
         <p>
           I am Hal. I write Javascript code for fun. When it’s time to let my brain subconsciously cogitate on the solution to a problem I relax by automating the continuous delivery pipeline. I know some things about some things but mostly I know how to learn new things; I enjoy it.

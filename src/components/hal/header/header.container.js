@@ -1,5 +1,5 @@
 import {connect} from 'react-redux'
-import {jobTitleEnters, jobTitleLeaves} from '../../../actions/header.actions'
+import {greenJobTitleEnters, greenJobTitleLeaves, blueJobTitleEnters, blueJobTitleLeaves} from '../../../actions/header.actions'
 import header from './header.component'
 
 const mapStateToProps = (state, ownProps) => {
@@ -10,11 +10,17 @@ const mapStateToProps = (state, ownProps) => {
 
 const mapDispatchToProps = (dispatch, ownProps) => {
   return {
-    jobTitleEnters: () => {
-      dispatch(jobTitleEnters())
+    greenJobTitleEnters: () => {
+      dispatch(greenJobTitleEnters())
     },
-    jobTitleLeaves: () => {
-      dispatch(jobTitleLeaves())
+    greenJobTitleLeaves: () => {
+      dispatch(greenJobTitleLeaves())
+    },
+    blueJobTitleEnters: () => {
+      dispatch(blueJobTitleEnters())
+    },
+    blueJobTitleLeaves: () => {
+      dispatch(blueJobTitleLeaves())
     },
   }
 }
