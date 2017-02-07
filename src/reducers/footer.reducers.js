@@ -31,11 +31,11 @@ const INITIAL_STATE = new List([
     icon: 'fa-facebook-official',
     link: 'https://www.facebook.com/hally9k'
   },
-  {
-    name: 'Instagram',
-    icon: 'fa-instagram',
-    link: 'https://www.instagram.com/hally9k'
-  },
+  // {
+  //   name: 'Instagram',
+  //   icon: 'fa-instagram',
+  //   link: 'https://www.instagram.com/hally9k'
+  // },
 ]);
 
 export default (state = INITIAL_STATE, action) => {
