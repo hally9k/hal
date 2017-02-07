@@ -1,6 +1,6 @@
 import React from 'react';
 import {Provider} from 'react-redux';
-import {Router, Route, browserHistory} from 'react-router';
+import {Router, Route, IndexRoute} from 'react-router';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
 
@@ -10,10 +10,11 @@ import Tech from '../hal/tech/tech.container';
 import Work from '../hal/work/work.component';
 import Blog from '../hal/blog/blog.component';
 
-const Root = ({store}) => (
+const Root = ({store, history}) => (
   <Provider store={store} className="root">
-    <Router history={browserHistory}>
+    <Router history={history}>
       <Route path="/" component={Hal}>
+        <IndexRoute component={Me} />
         <Route path="me" component={Me} />
         <Route path="tech" component={Tech} />
         <Route path="work" component={Work} />
@@ -22,5 +23,6 @@ const Root = ({store}) => (
     </Router>
   </Provider>
 )
+
 
 export default Root;
