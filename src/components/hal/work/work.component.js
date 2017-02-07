@@ -16,6 +16,12 @@ class work extends Component {
       At Pixel Fusion Hal provides the engineering expertise required to deliver the next generation of digital experiences; robust, performant, scalable and exstensible. Four years experience designing and developing products in financial analytics and IOT, has earned Hal a broad skill base ranging from Product Design to DevOps. Hal not only provides the architectural experience to leverage the cutting edge in today's front-end technologies but brings the high level vision required to deliver a targeted and well-honed solution to perfectly serve the use case at hand.
       Hal's BSc in computer science is deftly counterweighted by his previous career path as a designer, musician and audio engineer. He prides himself in utilising a perfect mix of creativity and critical thinking throughout the decision-making process, offering that right-brain perspective where it is most required. At "Pixel Fusion" Hal is focused on delivering differentiating digital experiences while keenly scanning the landscape in pursuit of those precious little sparks of true innovation.
     </p>
+    <h4>Technologies Used: </h4>
+    <p>The full React ecosystem including Redux with Webpack, Babel and Jest. Jenkins and Docker for DevOps.</p>
+    <h4>Key Achievements:</h4>
+    <p>• Delivering a high quality product in a sensitive timeframe for a front runner in the utilities space.</p>
+    <p>• Introducing new technology to the company and mentoring the development team through the adoption process.</p>
+
   </div>
 
   <div className="work-place-section">

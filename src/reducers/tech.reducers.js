@@ -77,7 +77,15 @@ const INITIAL_STATE = new Map({
     {
       key: 'aws',
       url: 'http://res.cloudinary.com/hally9k/image/upload/c_scale,w_60/v1474914878/aws_kdkxcb.png'
-    }
+    },
+    {
+      key: 'jenkins',
+      url: 'http://res.cloudinary.com/hally9k/image/upload/c_scale,w_60/v1486504864/Jenkins_uk0l3z.png'
+    },
+    {
+      key: 'docker',
+      url: 'http://res.cloudinary.com/hally9k/image/upload/c_scale,w_60/v1486504681/docker_new_logo_xvckz5.png'
+    },
   ],
   fullstack: [
     {

@@ -7,15 +7,7 @@ class techComponent extends Component {
     return (
       <div>
         <h1 className="tech-main-title">Things I use...</h1>
-        {/* <div className="tech-logos-container">
-          {
-            this.props.state.map((tech) => {
-              return <div className="tech-logo-container" key={tech.key}>
-                        <img className="tech-logo" src={tech.url} alt={tech.key} />
-                      </div>
-            })
-          }
-        </div> */}
+
         <div className="tech-section">
           <h3 className="tech-title">Front End</h3>
           <div className="tech-logos-container">
@@ -47,10 +39,11 @@ class techComponent extends Component {
               })
             }
           </div>
+          <p>Git, Teamcity, Octopus Deploy, AWS, Jenkins & Docker</p>
         	<p>Continuous Deployment Proponent</p>
         	<p>Auto Scaling, Immutable Infrastructure for the win</p>
         	<p>If it moves - automate it.</p>
-        	<p>Git -> Teamcity -> Nuget/Zip -> Octopus Deploy -> AWS - Rinse & repeat</p>
+        	<p>Containerize all the things.</p>
         </div>
 
         <div className="tech-section">

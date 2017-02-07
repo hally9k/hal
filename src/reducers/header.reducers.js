@@ -10,7 +10,9 @@ const INITIAL_STATE = new Map({
     'frontend engineer',
     'devops guy',
     'wannabe chef',
-    'husband'
+    'husband',
+    'javascript nerd',
+    'perpetual upskiller'
   ],
   currentJobTitleIndex: 0,
   greenJobTitle: 'coder',
