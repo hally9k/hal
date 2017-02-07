@@ -9,8 +9,8 @@ class me extends Component {
         <p>
           I am Hal. I write Javascript code for fun. When it’s time to let my brain subconsciously cogitate on the solution to a problem I relax by automating the continuous delivery pipeline. I know some things about some things but mostly I know how to learn new things; I enjoy it.
           My ideal position is in a start-up environment. I don’t feel at home in a corporate setting; bureaucracy hurts. I am motivated by being closely in touch with the business goals. I am all about team spirit and achieving real feats of awesomeness.
-          On the internets I am hally9k. e.g: <a href="stackoverflow.com/users/1770624/hally9k">stackoverflow.com/users/1770624/hally9k</a><br />
-          <a href="github.com/hally9k">github.com/hally9k</a>
+          On the internets I am hally9k. e.g: <a href="https://stackoverflow.com/users/1770624/hally9k">stackoverflow.com/users/1770624/hally9k</a><br />
+          <a href="https://github.com/hally9k">github.com/hally9k</a>
         </p>
       </div>
     );
