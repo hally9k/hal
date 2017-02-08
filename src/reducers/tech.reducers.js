@@ -59,6 +59,14 @@ const INITIAL_STATE = new Map({
     {
       key: 'postcss',
       url: 'http://res.cloudinary.com/hally9k/image/upload/c_scale,w_60/v1474914880/postcss_n6i1d7.png'
+    },
+    {
+      key: 'elm',
+      url: 'http://res.cloudinary.com/hally9k/image/upload/c_scale,w_60/v1474914878/elm_hijrdz.png'
+    },
+    {
+      key: 'cyclejs',
+      url: 'http://res.cloudinary.com/hally9k/image/upload/c_scale,w_60/v1486524168/cyclejs_c6ck7q.png'
     }
   ],
   devops: [
