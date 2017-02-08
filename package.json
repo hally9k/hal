@@ -27,6 +27,6 @@
     "eject": "react-scripts eject",
     "commit": "git commit -am \"pre-deploy commit\" && git push",
     "deploy" : "npm run build && gh-pages -d build",
-    "commit&deploy": "npm run commit && npm run deploy"
+    "commitanddeploy": "npm run commit && npm run deploy"
   }
 }
