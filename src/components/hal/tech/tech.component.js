@@ -19,11 +19,12 @@ class techComponent extends Component {
               })
             }
           </div>
-        	<p>AngularJS & KendoUI Specialist</p>
-        	<p>ReactJS Enthusiast</p>
-          <p>Pure Functional Components with Redux, Please.</p>
+          <p>React and Redux Specialist</p>
+        	<p>Experienced with AngularJS & KendoUI</p>
+        	<p>Interested in Elm and Cycle JS</p>
+          <p>Pure Functional Components, Please.</p>
           <p>ES6/7 with Babel, Webpack, Gulp and Yeoman</p>
-          <p>TDD with Karma, Mocha, Chai & Sinon.</p>
+          <p>TDD with Jest/Karma, Mocha, Chai & Sinon.</p>
         	<p>Bootstrap User</p>
         	<p>PostCSS / SCSS / LESS</p>
         </div>
