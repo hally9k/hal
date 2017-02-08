@@ -25,6 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy" : "git commit -am \"pre-deploy commit\" && git push && npm run build && gh-pages -d build"
+    "commit": "git commit -am \"pre-deploy commit\" && git push",
+    "deploy" : "npm run build && gh-pages -d build",
+    "commit&deploy": "npm run commit && npm run deploy"
   }
 }
